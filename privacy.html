@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — AURA: The Sovereign Registry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #090A0E;
+            --card-bg: #121319;
+            --card-border: rgba(229, 195, 120, 0.22);
+            --gold-primary: #E5C378;
+            --gold-light: #FDF4D4;
+            --gold-gradient: linear-gradient(135deg, #F3E0A5 0%, #D4AF37 50%, #AA820A 100%);
+            --diamond-ice: #B8E4FF;
+            --text-primary: #EAEAEF;
+            --text-secondary: #9B9CA7;
+            --accent-glow: rgba(229, 195, 120, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            border-bottom: 1px solid var(--card-border);
+            background: rgba(9, 10, 14, 0.85);
+            backdrop-filter: blur(16px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand-title {
+            font-family: 'Cinzel', serif;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 6px;
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+
+        .brand-subtitle {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-secondary);
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 40px auto 80px;
+            padding: 0 24px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 0 50px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            margin-bottom: 40px;
+        }
+
+        .hero h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 38px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            margin-bottom: 14px;
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            color: var(--text-secondary);
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--gold-primary);
+            background: rgba(229, 195, 120, 0.08);
+            color: var(--gold-primary);
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            margin-bottom: 18px;
+            text-transform: uppercase;
+        }
+
+        .section-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 28px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 20px;
+            color: var(--gold-light);
+            letter-spacing: 1.5px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        h2::before {
+            content: "◆";
+            color: var(--gold-primary);
+            font-size: 14px;
+        }
+
+        h3 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin: 20px 0 8px;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            color: var(--text-primary);
+            font-size: 14.5px;
+            margin-bottom: 14px;
+            font-weight: 400;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 14px;
+        }
+
+        li {
+            position: relative;
+            padding-left: 22px;
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        li::before {
+            content: "•";
+            position: absolute;
+            left: 6px;
+            color: var(--gold-primary);
+            font-size: 16px;
+        }
+
+        li strong {
+            color: var(--text-primary);
+        }
+
+        .highlight-box {
+            background: rgba(229, 195, 120, 0.06);
+            border-left: 3px solid var(--gold-primary);
+            padding: 16px 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 18px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            font-size: 13.5px;
+            color: var(--gold-light);
+        }
+
+        a {
+            color: var(--gold-primary);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            text-align: center;
+            padding: 40px 24px;
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 28px; }
+            .section-card { padding: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div>
+                <a href="#" class="brand-title">AURA</a>
+                <div class="brand-subtitle">The Sovereign Registry</div>
+            </div>
+            <div class="badge">Privacy Policy</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <div class="badge">Official Compliance Document</div>
+            <h1>Privacy Policy</h1>
+            <p>Effective Date: September 18, 2026 &bull; iOS Application</p>
+        </div>
+
+        <div class="section-card">
+            <h2>1. Our Commitment to Privacy</h2>
+            <p><strong>AURA – The Sovereign Registry</strong> ("AURA", "we", "our", or "us") was engineered from the ground up on the principle of digital discretion and security. We believe that membership in an exclusive registry must be accompanied by absolute respect for personal data.</p>
+            <div class="highlight-box">
+                <p><strong>Zero Data Monetization:</strong> We do NOT sell, rent, lease, or monetize your personal information to third parties, data brokers, or advertising networks under any circumstances.</p>
+            </div>
+        </div>
+
+        <div class="section-card">
+            <h2>2. Information We Collect</h2>
+            <p>We collect only the minimum data required to authenticate your status and display your membership seat on the Global Registry.</p>
+            
+            <h3>A. Profile Data Provided Voluntarily</h3>
+            <ul>
+                <li><strong>Display Name / Alias:</strong> The chosen name under which your registry seat is listed.</li>
+                <li><strong>Nation of Registry:</strong> Your declared country or territory of affiliation.</li>
+                <li><strong>Sovereign Motto:</strong> An optional personal statement shown on your 3D Black Diamond Pass.</li>
+                <li><strong>Insignia / Avatar:</strong> The luxury emblem selected for your profile card.</li>
+            </ul>
+
+            <h3>B. In-App Purchase & Transaction Validation</h3>
+            <p>All financial processing is handled strictly and directly by <strong>Apple StoreKit 2</strong>.</p>
+            <ul>
+                <li>We do <strong>not</strong> collect or store credit card numbers, billing addresses, or financial credentials.</li>
+                <li>Apple transmits an anonymized, cryptographically verified JSON Web Signature (JWS) receipt token. This token confirms your payment and guarantees your immutable sequence number (e.g. #001, #015).</li>
+            </ul>
+
+            <h3>C. Push Notification Tokens</h3>
+            <ul>
+                <li>If you permit push notifications, our system registers an anonymous device token through <strong>Apple Push Notification service (APNs)</strong> and <strong>Firebase Cloud Messaging</strong> to deliver alerts when new sovereign members enter the registry.</li>
+                <li>You may revoke notification permissions at any time via iOS Settings.</li>
+            </ul>
+        </div>
+
+        <div class="section-card">
+            <h2>3. How We Use Your Data</h2>
+            <ul>
+                <li><strong>Public Registry Display:</strong> Displaying your verified rank, country badge, and motto within the global high-society index.</li>
+                <li><strong>Pass Minting:</strong> Generating your interactive 3D gyroscopic Member Pass with cryptographic proof of authenticity.</li>
+                <li><strong>Notification Routing:</strong> Dispatching real-time registry alerts.</li>
+                <li><strong>Diagnostics:</strong> Analyzing anonymous crash logs to ensure high application uptime and performance.</li>
+            </ul>
+        </div>
+
+        <div class="section-card">
+            <h2>4. Third-Party Infrastructure</h2>
+            <p>We work exclusively with enterprise-grade technology partners:</p>
+            <ul>
+                <li><strong>Apple Inc.:</strong> Processes in-app purchases, receipt validation, and APNs delivery under <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</li>
+                <li><strong>Google Cloud / Firebase:</strong> Encrypted cloud database and messaging infrastructure under <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
+            </ul>
+        </div>
+
+        <div class="section-card">
+            <h2>5. Data Security & Encryption</h2>
+            <p>All data in transit is protected using modern <strong>TLS 1.3 encryption</strong>. Registry records stored on Firebase Firestore are protected with <strong>256-bit AES encryption at rest</strong>. Strict database security rules prevent unauthorized access or tampering.</p>
+        </div>
+
+        <div class="section-card">
+            <h2>6. Account & Data Deletion Rights</h2>
+            <p>In accordance with Apple App Store Review Guidelines and international privacy standards (including GDPR and CCPA), you have the right to request deletion of your data at any time.</p>
+            <div class="highlight-box">
+                <p><strong>How to request deletion:</strong> Email us at <a href="mailto:support@aura-registry.com">support@aura-registry.com</a> with your verified Member ID or transaction hash, or submit a request on our <a href="https://github.com/JUNAIDAKMAL/Aura-Privacy-Policy" target="_blank">GitHub Repository</a>. All personal identifiers will be permanently removed from active databases within 30 days.</p>
+            </div>
+        </div>
+
+        <div class="section-card">
+            <h2>7. Children's Privacy</h2>
+            <p>AURA is rated 17+ and is strictly designed for adults. We do not knowingly collect personal data from anyone under the age of 13. If you believe a child has submitted information, please notify us for immediate purge.</p>
+        </div>
+
+        <div class="section-card">
+            <h2>8. Contact & Developer Information</h2>
+            <p>For inquiries, support, or privacy questions regarding AURA:</p>
+            <ul>
+                <li><strong>Developer:</strong> Junaid Akmal</li>
+                <li><strong>Support Email:</strong> <a href="mailto:support@aura-registry.com">support@aura-registry.com</a></li>
+                <li><strong>Privacy Policy Repository:</strong> <a href="https://github.com/JUNAIDAKMAL/Aura-Privacy-Policy" target="_blank">https://github.com/JUNAIDAKMAL/Aura-Privacy-Policy</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 AURA — The Sovereign Registry. Engineered by Junaid Akmal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
