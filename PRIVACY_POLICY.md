@@ -77,22 +77,15 @@ All third-party services process data strictly as service providers in complianc
 
 * Your Sovereign profile remains active in the registry as long as your membership is in effect.
 * **Account / Data Deletion Rights:** You have the right to request deletion of your name, motto, and registry record at any time. To request deletion of your data, please email **support@aura-registry.com** or open an issue on our GitHub repository at [https://github.com/JUNAIDAKMAL/Aura-Privacy-Policy](https://github.com/JUNAIDAKMAL/Aura-Privacy-Policy). Upon receiving your verified request, your personal information will be permanently removed from our active database within 30 days.
-
 ---
 
-## 7. Children's Privacy
-
-AURA is rated 17+ and is strictly intended for adult users. We do not knowingly solicit or collect personal information from children under the age of 13. If you believe that a minor has submitted personal data to us, please contact us immediately for prompt deletion.
-
----
-
-## 8. Changes to this Privacy Policy
+## 7. Changes to this Privacy Policy
 
 We may update our Privacy Policy from time to time to reflect improvements or regulatory changes. Any modifications will be posted to this page with an updated "Last Updated" date. Continued use of AURA after updates constitutes acceptance of the revised terms.
 
 ---
 
-## 9. Contact Us
+## 8. Contact Us
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact:
 
